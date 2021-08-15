@@ -1,8 +1,9 @@
-import React from 'react';
-import { Navbar } from './components';
+import { Header, Navbar } from './components';
+
 function App() {
   return (
     <div>
+      <Header />
       <Navbar />
     </div>
   );
