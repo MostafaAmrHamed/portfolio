@@ -6,9 +6,12 @@ import profile from './profile.png';
 
 export const Header: React.FC = () => {
   return (
-    <div className={styles.header}>
+    <div className={styles.profile}>
       <img src={bg} height={'auto'} width={'100%'} alt="Cover" />
-      <img className={styles.profile} src={profile} height={300} width={300} alt="porfilePicture" />
+      <div className={styles.profile_info}>
+        <img className={styles.profile_photo} src={profile} alt="porfilePicture" />
+        <h1 className={styles.profile_name}>Mostafa Amr</h1>
+      </div>
     </div>
   );
 };
