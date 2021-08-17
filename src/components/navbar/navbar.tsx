@@ -1,11 +1,12 @@
 import React from 'react';
 
 import styles from './navbar.module.css';
-
-export const Navbar: React.FC = () => {
+import { DesktopNavbar, MobileNavbar } from './index';
+export const Navbar = () => {
   return (
-    <div className={styles.testo}>
-      <p>Home About Abput About About</p>
+    <div className={styles.navbar}>
+      <MobileNavbar />
+      <DesktopNavbar />
     </div>
   );
 };
