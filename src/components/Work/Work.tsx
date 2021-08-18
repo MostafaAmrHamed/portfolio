@@ -11,6 +11,7 @@ export const Work = () => {
   const [active, setActive] = useState(true);
   return (
     <div className={styles.work}>
+      <h1 className={styles.title}>Work</h1>
       <div className={styles.buttons}>
         <p
           onClick={() => {
