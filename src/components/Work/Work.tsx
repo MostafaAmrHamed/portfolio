@@ -36,7 +36,7 @@ export const Work = () => {
         </p>
       </div>
       <div className={styles.container}>
-        {show.map((item: any) => {
+        {show.map((item) => {
           return <Card data={item} />;
         })}
       </div>

@@ -1,5 +1,14 @@
 import image from './images/img.jpg';
-export const data = [
+type Data = {
+  tag: string;
+  img: string;
+  description: string;
+  buttons: {
+    name: string;
+    link: string;
+  }[];
+}[];
+export const data: Data = [
   {
     tag: 'web',
     img: image,
@@ -90,9 +99,9 @@ export const data = [
   },
 ];
 
-export const getWeb = (data: any) => {
-  return data.filter((item: any) => item.tag === 'web');
+export const getWeb = (data: Data) => {
+  return data.filter((item) => item.tag === 'web');
 };
-export const getVideo = (data: any) => {
-  return data.filter((item: any) => item.tag === 'video');
+export const getVideo = (data: Data) => {
+  return data.filter((item) => item.tag === 'video');
 };
