@@ -25,7 +25,7 @@ export const Card: React.FC<Props> = ({ data }) => {
       <div className={styles.links}>
         {data.buttons.map((item) => {
           return (
-            <a href={`${item.link}`} className={styles.link} target="_blank">
+            <a href={`${item.link}`} className={styles.link} target="_blank" rel="noreferrer">
               {item.name}
             </a>
           );
