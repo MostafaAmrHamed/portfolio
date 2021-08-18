@@ -11,6 +11,10 @@
   width: 100%;
   transform: translate(-50%, -50%);
 }
+.profile_container {
+  position: relative;
+  height: 12rem;
+}
 .profile_photo {
   height: 300px;
   width: 300px;
@@ -30,6 +34,10 @@
   .profile_name {
     font-size: 3.2rem;
   }
+  .profile_container {
+    position: relative;
+    height: 9rem;
+  }
 }
 @media (max-width: 768px) {
   .profile_photo {
@@ -39,6 +47,10 @@
   .profile_name {
     font-size: 2.2rem;
   }
+  .profile_container {
+    position: relative;
+    height: 6rem;
+  }
 }
 @media (max-width: 500px) {
   .profile_photo {
@@ -47,5 +59,9 @@
   }
   .profile_name {
     font-size: 1.9rem;
+  }
+  .profile_container {
+    position: relative;
+    height: 4rem;
   }
 }
