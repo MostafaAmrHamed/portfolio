@@ -1,6 +1,7 @@
 .container {
   display: grid;
   gap: 1.5rem;
+  place-items: center;
   width: 90%;
   margin: 0 auto;
 }
@@ -40,13 +41,14 @@
   display: flex;
   justify-content: space-between;
   margin: 1rem;
+  gap: 4rem;
 }
 .link {
   color: var(--color-title);
   border: solid 1px var(--color);
   text-decoration: none;
-  width: 40%;
   text-align: center;
+  flex-basis: 100%;
   padding: 0.4rem 0;
 }
 .link:hover {
@@ -56,12 +58,12 @@
 
 @media (min-width: 768px) {
   .container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
   }
 }
 @media (min-width: 1440px) {
   .container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
     width: 80%;
   }
   .card {
@@ -70,7 +72,7 @@
 }
 @media (min-width: 2560px) {
   .container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, auto);
     width: 70%;
   }
   .card {
