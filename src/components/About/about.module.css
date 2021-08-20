@@ -1,0 +1,38 @@
+.about {
+  margin-top: 5rem;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  color: var(--color);
+  font-size: calc(var(--font-size-1) * 1.5);
+  width: max-content;
+}
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  width: 65%;
+  background: var(--color-text);
+}
+.intro {
+  color: var(--color-text);
+  margin-top: 2rem;
+}
+.info {
+  color: var(--color-sub-text);
+  font-size: var(--font-size-4);
+  width: 80%;
+  margin-top: 2rem;
+  line-height: 1.75rem;
+}
