@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './skills.module.css';
 import { AiFillHtml5 } from 'react-icons/ai';
-import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io';
+import { IoLogoCss3 } from 'react-icons/io';
 import {
   SiJavascript,
   SiTypescript,
@@ -28,6 +28,36 @@ export const Skills = () => {
           </p>
           <p className={styles.skill}>
             javaScript <SiJavascript className={styles.icon} />
+          </p>
+          <p className={styles.skill}>
+            Bootstrap <FaBootstrap className={styles.icon} />
+          </p>
+          <p className={styles.skill}>
+            React <SiReact className={styles.icon} />
+          </p>
+          <p className={styles.skill}>
+            TypeScript <SiTypescript className={styles.icon} />
+          </p>
+        </div>
+
+        <div className={styles.git}>
+          <p className={styles.git__skill}>
+            Git <FaGitAlt className={styles.icon} />
+          </p>
+        </div>
+
+        <div className={styles.desgin__skills}>
+          <p className={styles.skill}>
+            Adobe <SiAdobephotoshop className={styles.icon} />
+          </p>
+          <p className={styles.skill}>
+            Adobe <SiAdobeillustrator className={styles.icon} />
+          </p>
+          <p className={styles.skill}>
+            Adobe <SiAdobexd className={styles.icon} />
+          </p>
+          <p className={styles.skill}>
+            Adobe <SiAdobepremiere className={styles.icon} />
           </p>
         </div>
       </div>

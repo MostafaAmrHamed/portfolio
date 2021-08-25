@@ -27,17 +27,28 @@
   margin: 0 auto;
   margin-top: 1.5rem;
 }
-.skill {
+.web__skills,
+.desgin__skills {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+  place-items: center;
+  margin: 0 auto;
+}
+.skill,
+.git__skill {
   color: var(--color-text);
   font-size: var(--font-size-4);
   border: solid 1px var(--color);
+  width: 75%;
+  text-align: center;
   border-radius: 5px;
-  flex-basis: 100%;
   padding: 0rem 1rem 0.5rem 1rem;
   transition: all 0.2s;
   margin: 0;
 }
-.skill:hover {
+.skill:hover,
+.git__skill:hover {
   background: var(--color);
 }
 .icon {
@@ -45,25 +56,23 @@
   top: 7px;
   font-size: var(--font-size-2);
 }
-
-.web__skills {
+.git {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 1rem;
+  grid-template-columns: repeat(1, auto);
   place-items: center;
-  margin: 0 auto;
 }
-
+.git__skill {
+  margin-top: 1rem;
+  width: 88%;
+}
+.desgin__skills {
+  margin-top: 1rem;
+}
 @media (min-width: 768px) {
   .skill {
-    color: var(--color-text);
     font-size: var(--font-size-3);
-    border: solid 1px var(--color);
-    border-radius: 5px;
-    width: max-content;
+    width: 70%;
     padding: 0.25rem 1.2rem 0.5rem 1.2rem;
-    transition: all 0.2s;
-    margin: 0;
   }
   .icon {
     position: relative;
@@ -73,10 +82,27 @@
   .web__skills {
     grid-template-columns: repeat(3, auto);
   }
+  .git__skill {
+    margin-top: 1rem;
+    width: 91%;
+  }
+  .desgin__skills {
+    grid-template-columns: repeat(4, auto);
+    width: 97%;
+  }
 }
 @media (min-width: 1440px) {
   .web__skills {
     width: 80%;
+  }
+  .desgin__skills {
+    width: 76%;
+  }
+  .skill {
+    width: 50%;
+  }
+  .git__skill {
+    width: 67%;
   }
 }
 @media (min-width: 2560px) {
