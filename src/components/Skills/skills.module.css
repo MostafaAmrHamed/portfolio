@@ -1,0 +1,105 @@
+.skills {
+  margin-top: 5rem;
+}
+.title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  color: var(--color);
+  font-size: calc(var(--font-size-1) * 1.5);
+  width: max-content;
+}
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 3px;
+  width: 65%;
+  background: var(--color-text);
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+.web__skills,
+.desgin__skills {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1rem;
+  place-items: center;
+  margin: 0 auto;
+}
+.skill,
+.git__skill {
+  color: var(--color-text);
+  font-size: var(--font-size-4);
+  border: solid 1px var(--color);
+  width: 75%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0rem 1rem 0.5rem 1rem;
+  transition: all 0.2s;
+  margin: 0;
+}
+.skill:hover,
+.git__skill:hover {
+  background: var(--color);
+}
+.icon {
+  position: relative;
+  top: 7px;
+  font-size: var(--font-size-2);
+}
+.git {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  place-items: center;
+}
+.git__skill {
+  width: 88%;
+  margin-top: 1rem;
+}
+.desgin__skills {
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .skill {
+    font-size: var(--font-size-3);
+    padding: 0.25rem 1.2rem 0.5rem 1.2rem;
+  }
+  .icon {
+    position: relative;
+    top: 7px;
+    font-size: var(--font-size-1);
+  }
+  .web__skills {
+    grid-template-columns: repeat(3, auto);
+  }
+  .git__skill {
+    width: 92%;
+  }
+  .desgin__skills {
+    grid-template-columns: repeat(4, auto);
+    width: 97%;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 85%;
+  }
+  .web__skills {
+    width: 80%;
+  }
+  .git__skill {
+    width: 74%;
+  }
+  .desgin__skills {
+    width: 78%;
+  }
+}
