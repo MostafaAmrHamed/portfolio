@@ -62,8 +62,8 @@
   place-items: center;
 }
 .git__skill {
-  margin-top: 1rem;
   width: 88%;
+  margin-top: 1rem;
 }
 .desgin__skills {
   margin-top: 1rem;
@@ -71,7 +71,6 @@
 @media (min-width: 768px) {
   .skill {
     font-size: var(--font-size-3);
-    width: 70%;
     padding: 0.25rem 1.2rem 0.5rem 1.2rem;
   }
   .icon {
@@ -83,27 +82,24 @@
     grid-template-columns: repeat(3, auto);
   }
   .git__skill {
-    margin-top: 1rem;
-    width: 91%;
+    width: 92%;
   }
   .desgin__skills {
     grid-template-columns: repeat(4, auto);
     width: 97%;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
+  .container {
+    width: 80%;
+  }
   .web__skills {
     width: 80%;
   }
-  .desgin__skills {
-    width: 76%;
-  }
-  .skill {
-    width: 50%;
-  }
   .git__skill {
-    width: 67%;
+    width: 74%;
   }
-}
-@media (min-width: 2560px) {
+  .desgin__skills {
+    width: 78%;
+  }
 }
