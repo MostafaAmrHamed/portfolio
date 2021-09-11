@@ -32,7 +32,7 @@ const alert = () => {
 };
 export const Contact = () => {
   return (
-    <div className={styles.contact}>
+    <div className={styles.contact} id="contact">
       <h1 className={styles.title}>Contact</h1>
       <div className={styles.container}>
         <form onSubmit={sendEmail}>

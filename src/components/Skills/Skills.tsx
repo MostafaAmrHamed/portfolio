@@ -16,7 +16,7 @@ import { FaGitAlt, FaBootstrap } from 'react-icons/fa';
 
 export const Skills = () => {
   return (
-    <div className={styles.skills}>
+    <div className={styles.skills} id="skills">
       <h1 className={styles.title}>Skills</h1>
       <div className={styles.container}>
         <div className={styles.web__skills}>

@@ -4,7 +4,7 @@ import styles from './about.module.css';
 
 export const About = () => {
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
       <div className={styles.container}>
         <h1 className={styles.title}> About </h1>
         <h1 className={styles.intro}>I am a Frontend Developer and Graphic Designer</h1>
