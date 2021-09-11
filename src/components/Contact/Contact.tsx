@@ -1,5 +1,6 @@
-import emailjs from 'emailjs-com';
 import React from 'react';
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
 
 import styles from './contact.module.css';
 
@@ -16,9 +17,19 @@ const sendEmail = (e: any) => {
         console.log(error.text);
       },
     );
+  alert();
   e.target.reset();
 };
 
+const alert = () => {
+  Swal.fire({
+    position: 'center',
+    icon: 'success',
+    title: 'Thank you for contacting us!',
+    showConfirmButton: false,
+    timer: 2000,
+  });
+};
 export const Contact = () => {
   return (
     <div className={styles.contact}>
@@ -29,7 +40,7 @@ export const Contact = () => {
             <p className={styles.label}>Email</p>
             <input type="email" className={styles.email} name="email" required />
 
-            <div className={styles.textarea2}>
+            <div className={styles.textarea}>
               <div>
                 <p className={styles.label}>Message</p>
                 <textarea
