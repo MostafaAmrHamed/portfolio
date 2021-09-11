@@ -6,7 +6,7 @@ export const DesktopNavbar = () => {
   const data = ['About', 'Work', 'Skills', 'Contact', 'Resume'];
 
   return (
-    <div className={styles.dekstop__navbar + ' ' + styles.fixed}>
+    <div className={styles.dekstop__navbar}>
       <ul className={styles.desktop__links__container}>
         {data.map((item) => {
           return (
