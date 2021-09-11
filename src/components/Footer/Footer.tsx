@@ -30,7 +30,7 @@ const data = [
 export const Footer = () => {
   return (
     <div className={styles.footer}>
-      <div className={styles.test}>
+      <div className={styles.contacts}>
         {data.map((item) => {
           return (
             <a href={item.link} target="_blank" rel="noreferrer" className={styles.icon}>
