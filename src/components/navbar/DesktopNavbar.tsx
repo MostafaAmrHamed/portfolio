@@ -1,24 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import styles from './navbar.module.css';
 
 export const DesktopNavbar = () => {
   const data = ['About', 'Work', 'Skills', 'Contact', 'Resume'];
-  const [navbar, setNavbar] = useState(false);
-
-  const fixedNavbar = () => {
-    if (window.scrollY >= 750) setNavbar(true);
-    else setNavbar(false);
-  };
-  window.addEventListener('scroll', fixedNavbar);
 
   return (
-    <div className={navbar ? styles.dekstop__navbar + ' ' + styles.fixed : styles.dekstop__navbar}>
+    <div className={styles.dekstop__navbar + ' ' + styles.fixed}>
       <ul className={styles.desktop__links__container}>
         {data.map((item) => {
           return (
             <li>
-              <a href={`#${item.toLowerCase()}`} className={styles.desktop__links}>
+              <a
+                href={
+                  item !== 'Resume'
+                    ? `#${item.toLowerCase()}`
+                    : `https://drive.google.com/u/0/uc?id=1MrjcVJWnDqYHLJ1aSjkGzYd88VUuOFYo&export=download`
+                }
+                className={styles.desktop__links}
+              >
                 {item}
               </a>
             </li>

@@ -1,17 +1,22 @@
 .navbar {
-  margin-top: 2rem;
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-color-2);
+  margin-top: 5rem;
+  z-index: 2;
+  padding: 0.1rem 0;
 }
 .dekstop__navbar {
   display: none;
 }
-.fixed {
-  position: fixed;
+/* .fixed {
+  position: sticky;
   top: 0;
   width: 100%;
   background-color: var(--bg-color-2);
   transition: 0.6;
   z-index: 5;
-}
+} */
 .desktop__links__container {
   display: flex;
   justify-content: center;
@@ -95,6 +100,6 @@ a {
 }
 @media (min-width: 1440px) {
   .desktop__links {
-    font-size: var(--font-size-1);
+    font-size: var(--font-size-2);
   }
 }
