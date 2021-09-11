@@ -14,10 +14,10 @@ export const Contact = () => {
           <div className={styles.textarea2}>
             <div>
               <p className={styles.label}>Message</p>
-              <textarea className={styles.message}>Write your message..</textarea>
+              <textarea className={styles.message} placeholder="Write your message.."></textarea>
             </div>
-            <div>
-              <button className={styles.btn}>Send Message</button>
+            <div className={styles.send__message}>
+              <button className={styles.btn}>Send message</button>
             </div>
           </div>
         </div>
