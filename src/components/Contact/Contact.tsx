@@ -40,7 +40,7 @@ export const Contact = () => {
             <p className={styles.label}>Email</p>
             <input type="email" className={styles.email} name="email" required />
 
-            <div className={styles.textarea2}>
+            <div className={styles.textarea}>
               <div>
                 <p className={styles.label}>Message</p>
                 <textarea
