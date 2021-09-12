@@ -1,8 +1,7 @@
-import image from './images/img.jpg';
 import freeTime from './images/FreeTime.jpg';
 import wuzzufClone from './images/WuzzufClone.jpg';
 import landingPage from './images/landingPage.png';
-import pigGame from './images/Pig Game.png';
+import diceGame from './images/diceGame.jpg';
 import montage1 from './images/Montage 1.png';
 import montage2 from './images/Montage 2.jpg';
 import montage3 from './images/Montage 3.jpg';
@@ -59,7 +58,7 @@ export const data: Data = [
   },
   {
     tag: 'web',
-    img: pigGame,
+    img: diceGame,
     description: `A game that teaches probability and is a fun boredom buster for kids made with HTML, CSS and JavaScript.`,
     buttons: [
       {
@@ -86,7 +85,7 @@ export const data: Data = [
   {
     tag: 'video',
     img: montage2,
-    description: `A Valorant montage for Marshal made using Adobe Premiere  and Photoshop`,
+    description: `A Valorant montage made using Adobe Premiere  and Photoshop`,
     buttons: [
       {
         name: 'Watch',
@@ -97,7 +96,7 @@ export const data: Data = [
   {
     tag: 'video',
     img: montage3,
-    description: `A Valorant montage for Marshal made using Adobe Premiere  and Photoshop`,
+    description: `A Valorant montage made using Adobe Premiere  and Photoshop`,
     buttons: [
       {
         name: 'Watch',
