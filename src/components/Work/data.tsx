@@ -2,6 +2,7 @@ import freeTime from './images/FreeTime.jpg';
 import wuzzufClone from './images/WuzzufClone.jpg';
 import landingPage from './images/landingPage.png';
 import diceGame from './images/diceGame.jpg';
+import GP from './images/GP.jpg';
 import montage1 from './images/Montage 1.png';
 import montage2 from './images/Montage 2.jpg';
 import montage3 from './images/Montage 3.jpg';
@@ -68,6 +69,17 @@ export const data: Data = [
       {
         name: 'Source',
         link: 'https://github.com/MostafaAmrHamed/Pig-Game',
+      },
+    ],
+  },
+  {
+    tag: 'web',
+    img: GP,
+    description: `System for Postgraduate Students to Manage All of Their Needs and Information`,
+    buttons: [
+      {
+        name: 'Source',
+        link: 'https://github.com/youssifYasser/post-graduate-system',
       },
     ],
   },
