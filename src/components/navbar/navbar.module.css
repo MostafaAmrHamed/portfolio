@@ -1,13 +1,13 @@
 .navbar {
   position: sticky;
   top: 0;
-  background-color: var(--bg-color-2);
   margin-top: 5rem;
   z-index: 2;
-  padding: 0.1rem 0;
 }
 .dekstop__navbar {
   display: none;
+  background-color: var(--bg-color-2);
+  padding: 0.1rem 0;
 }
 
 .desktop__links__container {
