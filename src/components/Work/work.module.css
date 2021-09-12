@@ -84,6 +84,9 @@
   .container {
     grid-template-columns: repeat(2, auto);
   }
+  .description {
+    height: 90px;
+  }
 }
 @media (min-width: 1440px) {
   .container {
@@ -92,6 +95,9 @@
   }
   .card {
     font-size: var(--font-size-4);
+  }
+  .description {
+    height: 100px;
   }
   .title {
     font-size: calc(var(--font-size-1) * 2);
@@ -104,5 +110,8 @@
   }
   .card {
     font-size: var(--font-size-3);
+  }
+  .description {
+    height: 150px;
   }
 }
