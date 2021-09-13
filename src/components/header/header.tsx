@@ -2,7 +2,6 @@ import React from 'react';
 
 import styles from './header.module.css';
 import bg from './bg.png';
-import profile from './profile.png';
 import profile2 from './profile_2.png';
 
 export const Header: React.FC = () => {
