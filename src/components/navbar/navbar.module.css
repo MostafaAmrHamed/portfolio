@@ -1,9 +1,15 @@
 .navbar {
-  margin-top: 2rem;
+  position: sticky;
+  top: 0;
+  margin-top: 5rem;
+  z-index: 2;
 }
 .dekstop__navbar {
   display: none;
+  background-color: var(--bg-color-2);
+  padding: 0.1rem 0;
 }
+
 .desktop__links__container {
   display: flex;
   justify-content: center;
@@ -24,10 +30,11 @@ a {
 
 /*Mobile navbar*/
 .mobile__navbar {
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   right: 0;
+  z-index: 1;
 }
 .mobile__links__container {
   display: flex;
@@ -42,7 +49,7 @@ a {
   list-style: none;
   transition: all 1s ease-in;
 }
-.active {
+/* .active {
   clip-path: circle(1000px at 90% -10%);
   -webkit-clip-path: circle(1000px at 90% -10%);
   transition: all 1s ease-in;
@@ -51,7 +58,7 @@ a {
   transition: all 1s ease-in;
   clip-path: circle(100px at 90% -10%);
   -webkit-clip-path: circle(100px at 90% -10%);
-}
+} */
 .mobile__links {
   color: var(--color-text);
   font-size: var(--font-size-1);
@@ -66,12 +73,6 @@ a {
   padding-right: 1rem;
   z-index: 2;
 }
-/* 
-@media (max-width: 768px) {
-  .desktop__links {
-    font-size: var(--font-size-3);
-  }
-} */
 
 @media (min-width: 768px) {
   .mobile__navbar {
@@ -86,6 +87,6 @@ a {
 }
 @media (min-width: 1440px) {
   .desktop__links {
-    font-size: var(--font-size-1);
+    font-size: var(--font-size-3);
   }
 }

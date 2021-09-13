@@ -10,7 +10,7 @@ export const Work = () => {
   const [show, setShow] = useState(web);
   const [active, setActive] = useState(true);
   return (
-    <div className={styles.work}>
+    <div className={styles.work} id="work">
       <h1 className={styles.title}>Work</h1>
       <div className={styles.buttons}>
         <p
