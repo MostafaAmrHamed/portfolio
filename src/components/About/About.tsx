@@ -7,13 +7,26 @@ export const About = () => {
     <div className={styles.about} id="about">
       <div className={styles.container}>
         <h1 className={styles.title}> About </h1>
-        <h1 className={styles.intro}>I am a Frontend Developer and a Graphic Designer</h1>
+        <h1 className={styles.intro}>Frontend Developer and Graphic Designer</h1>
         <p className={styles.info}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis at nam, nesciunt
-          consequuntur beatae ducimus vero nemo minima ullam expedita. Magnam aliquam accusamus
-          eveniet asperiores nam! Itaque non at ipsum rerum corporis similique ea ab enim autem,
-          placeat nemo veritatis quisquam totam quidem asperiores dolor. Pariatur ratione ullam
-          tempore consequatur.
+          I am a Frontend Developer and a Graphic Designer with 3 years of professional experience
+          in both. I work using HTML, CSS, Javascript, Bootstrap and framework React.js (Front-end)
+          & Adobe Photoshop, Adobe illustrator and Adobe Xd (Graphic Design){' '}
+          <a
+            href="https://www.behance.net/mostafaamro"
+            className={styles.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Behance
+          </a>
+          . I believe having experience in both design,UI UX and development allows for making the
+          most optimal user experiences. I have been working as a video editor for multiple clients;
+          using Adobe Premiere I have done a few professional montages which you can check{' '}
+          <a href="#work" className={styles.link2}>
+            below
+          </a>
+          .
         </p>
       </div>
     </div>

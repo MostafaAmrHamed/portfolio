@@ -28,11 +28,30 @@
 .intro {
   color: var(--color-text);
   margin-top: 2rem;
+  text-align: center;
 }
 .info {
   color: var(--color-sub-text);
   font-size: var(--font-size-4);
-  width: 80%;
   margin-top: 2rem;
   line-height: 1.75rem;
+  text-align: center;
+}
+.link {
+  color: white;
+  text-decoration: underline;
+}
+.link2 {
+  color: red;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .intro {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .about {
+    padding-top: 0;
+  }
 }
