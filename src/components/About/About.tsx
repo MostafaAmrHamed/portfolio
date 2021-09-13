@@ -9,9 +9,9 @@ export const About = () => {
         <h1 className={styles.title}> About </h1>
         <h1 className={styles.intro}>Frontend Developer and Graphic Designer</h1>
         <p className={styles.info}>
-          I am a Frontend Developer and a Graphic Designer with 3 years of professional experience
-          in both. I work using HTML, CSS, Javascript, Bootstrap and framework React.js (Front-end)
-          & Adobe Photoshop, Adobe illustrator and Adobe Xd (Graphic Design){' '}
+          I am a Frontend Developer and a Graphic Designer. I work using HTML, CSS, Typescript,
+          Bootstrap and library React.js (Front-end) & Adobe Photoshop, Adobe illustrator and Adobe
+          Xd (Graphic Design){' '}
           <a
             href="https://www.behance.net/mostafaamro"
             className={styles.link}
