@@ -1,4 +1,4 @@
-import { Header, Navbar, Work, About, Skills, Contact, Footer } from './components';
+import { Header, Navbar, Work, About, Skills, Contact, Footer } from './components/index';
 
 function App() {
   return (
