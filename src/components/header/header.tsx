@@ -4,7 +4,7 @@ import styles from './header.module.css';
 import bg from './bg.png';
 import profile2 from './profile_2.png';
 
-export const Header: React.FC = () => {
+export const Header = () => {
   return (
     <div className={styles.profile}>
       <img src={bg} height={'auto'} width={'100%'} alt="Cover" />
