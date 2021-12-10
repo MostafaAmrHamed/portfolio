@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './navbar.module.css';
 import { DesktopNavbar, MobileNavbar } from './index';
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <div className={styles.navbar}>
       <MobileNavbar />
@@ -10,3 +10,4 @@ export const Navbar = () => {
     </div>
   );
 };
+export default Navbar;

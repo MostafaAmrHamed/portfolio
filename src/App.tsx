@@ -1,5 +1,5 @@
-import { Header, Navbar, Work, About, Skills, Contact, Footer } from './components/index';
-
+import { Header, Work, About, Skills, Contact, Footer } from './components/index';
+import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <div>
