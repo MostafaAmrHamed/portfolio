@@ -11,6 +11,9 @@ import {
   SiAdobexd,
   SiAdobeillustrator,
   SiReact,
+  SiTailwindcss,
+  SiNextDotJs,
+  SiRedux,
 } from 'react-icons/si';
 import { FaGitAlt, FaBootstrap } from 'react-icons/fa';
 
@@ -37,6 +40,15 @@ export const Skills = () => {
           </p>
           <p className={styles.skill}>
             TypeScript <SiTypescript className={styles.icon} />
+          </p>
+          <p className={styles.skill}>
+            Tailwind <SiTailwindcss className={styles.icon} />
+          </p>
+          <p className={styles.skill}>
+            Next <SiNextDotJs className={styles.icon} />
+          </p>
+          <p className={styles.skill}>
+            Redux <SiRedux className={styles.icon} />
           </p>
         </div>
 

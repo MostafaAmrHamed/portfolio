@@ -1,4 +1,4 @@
-export { Navbar } from './Navbar';
+// export { Navbar } from './Navbar/Navbar';
 export { Work } from './Work';
 export { About } from './About';
 export { Skills } from './Skills';

@@ -1,11 +1,14 @@
 import freeTime from './images/FreeTime.jpg';
-import wuzzufClone from './images/WuzzufClone.jpg';
+// import wuzzufClone from './images/WuzzufClone.jpg';
 import landingPage from './images/landingPage.png';
 import diceGame from './images/diceGame.jpg';
 import GP from './images/GP.jpg';
+import StoreX from './images/StoreX.jpg';
 import montage1 from './images/Montage 1.png';
 import montage2 from './images/Montage 2.jpg';
 import montage3 from './images/Montage 3.jpg';
+import Cut from './images/Cut.jpg';
+import Opy from './images/Opy.jpg';
 type Data = {
   tag: string;
   img: string;
@@ -31,14 +34,29 @@ export const data: Data = [
       },
     ],
   },
+  // {
+  //   tag: 'web',
+  //   img: wuzzufClone,
+  //   description: `Helps you in your online job search to find jobs made with React, Bootstrap, and JavaScript.`,
+  //   buttons: [
+  //     {
+  //       name: 'Source',
+  //       link: 'https://github.com/MostafaAmrHamed/WuzzufClone',
+  //     },
+  //   ],
+  // },
   {
     tag: 'web',
-    img: wuzzufClone,
-    description: `Helps you in your online job search to find jobs made with React, Bootstrap, and JavaScript.`,
+    img: StoreX,
+    description: `An E-commerce website which is SEO optimized with Next.js, Redux, TailwindCSS, and FakeStoreAPI.`,
     buttons: [
       {
+        name: 'View',
+        link: 'https://store-x-sooty.vercel.app/',
+      },
+      {
         name: 'Source',
-        link: 'https://github.com/MostafaAmrHamed/WuzzufClone',
+        link: 'https://github.com/MostafaAmrHamed/StoreX',
       },
     ],
   },
@@ -91,6 +109,28 @@ export const data: Data = [
       {
         name: 'Watch',
         link: 'https://youtu.be/lP3HPpSb7So',
+      },
+    ],
+  },
+  {
+    tag: 'video',
+    img: Opy,
+    description: `Introducing Team Occupy VALORANT - OPY VALORANT Roster made using Adobe Premiere  and Photoshop`,
+    buttons: [
+      {
+        name: 'Watch',
+        link: 'https://youtu.be/MnIrkT2EW1s',
+      },
+    ],
+  },
+  {
+    tag: 'video',
+    img: Cut,
+    description: `Introducing Team Cut Esports VALORANT - Cut VALORANT Roster made using Adobe Premiere  and Photoshop`,
+    buttons: [
+      {
+        name: 'Watch',
+        link: 'https://youtu.be/i-T1wEsRBU8',
       },
     ],
   },
