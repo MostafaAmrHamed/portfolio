@@ -15,8 +15,10 @@ export const DesktopNavbar = () => {
                 href={
                   item !== 'Resume'
                     ? `#${item.toLowerCase()}`
-                    : `https://drive.google.com/u/0/uc?id=1MrjcVJWnDqYHLJ1aSjkGzYd88VUuOFYo&export=download`
+                    : `https://drive.google.com/file/d/1IOAJfwS2OkyKVJexjjU8MuhTER_hemo0/view`
                 }
+                rel="noopener noreferrer"
+                target={item === 'Resume' ? '_blank' : '_self'}
                 className={styles.desktop__links}
               >
                 {item}

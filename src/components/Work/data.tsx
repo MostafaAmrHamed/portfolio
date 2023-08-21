@@ -1,6 +1,3 @@
-import freeTime from './images/FreeTime.jpg';
-// import wuzzufClone from './images/WuzzufClone.jpg';
-import landingPage from './images/landingPage.png';
 import diceGame from './images/diceGame.jpg';
 import GP from './images/GP.jpg';
 import StoreX from './images/StoreX.jpg';
@@ -9,6 +6,10 @@ import montage2 from './images/Montage 2.jpg';
 import montage3 from './images/Montage 3.jpg';
 import Cut from './images/Cut.jpg';
 import Opy from './images/Opy.jpg';
+import fastCare from './images/fastCare.jpg';
+import csgo from './images/CSGO.jpg';
+import unholy from './images/Unholy.jpg';
+import montage4 from './images/Never Get Used To People.jpg';
 type Data = {
   tag: string;
   img: string;
@@ -19,21 +20,21 @@ type Data = {
   }[];
 }[];
 export const data: Data = [
-  {
-    tag: 'web',
-    img: freeTime,
-    description: `Helps you to find a movie to watch made with React, Bootstrap, and JavaScript.`,
-    buttons: [
-      {
-        name: 'View',
-        link: 'https://mostafaamrhamed.github.io/FreeTime/',
-      },
-      {
-        name: 'Source',
-        link: 'https://github.com/MostafaAmrHamed/FreeTime',
-      },
-    ],
-  },
+  // {
+  //   tag: 'web',
+  //   img: freeTime,
+  //   description: `Helps you to find a movie to watch made with React, Bootstrap, and JavaScript.`,
+  //   buttons: [
+  //     {
+  //       name: 'View',
+  //       link: 'https://mostafaamrhamed.github.io/FreeTime/',
+  //     },
+  //     {
+  //       name: 'Source',
+  //       link: 'https://github.com/MostafaAmrHamed/FreeTime',
+  //     },
+  //   ],
+  // },
   // {
   //   tag: 'web',
   //   img: wuzzufClone,
@@ -45,10 +46,25 @@ export const data: Data = [
   //     },
   //   ],
   // },
+  // {
+  //   tag: 'web',
+  //   img: landingPage,
+  //   description: `Landing page for a company website made with HTML, CSS, Bootstrap, and JavaScript.`,
+  //   buttons: [
+  //     {
+  //       name: 'View',
+  //       link: 'https://mostafaamrhamed.github.io/A-company-website/',
+  //     },
+  //     {
+  //       name: 'Source',
+  //       link: 'https://github.com/MostafaAmrHamed/A-company-website',
+  //     },
+  //   ],
+  // },
   {
     tag: 'web',
     img: StoreX,
-    description: `An E-commerce website which is SEO optimized with Next.js, Redux, TailwindCSS, and FakeStoreAPI.`,
+    description: `E-commerce Website: Explore, Add, and Manage Products with Ease on a Next.js-powered Website Made with: NextJS, React, Tailwind, Redux, FakeStoreAPI.`,
     buttons: [
       {
         name: 'View',
@@ -62,16 +78,27 @@ export const data: Data = [
   },
   {
     tag: 'web',
-    img: landingPage,
-    description: `Landing page for a company website made with HTML, CSS, Bootstrap, and JavaScript.`,
+    img: fastCare,
+    description: `Healthcare Hub: Empowering Communities with Vital Hospital Information and Lifesaving Connections. made with React, Typescript, Tailwind, Leaflet, Adobe Xd. `,
     buttons: [
       {
         name: 'View',
-        link: 'https://mostafaamrhamed.github.io/A-company-website/',
+        link: 'https://fast-care.vercel.app/',
       },
       {
         name: 'Source',
-        link: 'https://github.com/MostafaAmrHamed/A-company-website',
+        link: 'https://github.com/MostafaAmrHamed/fast-care',
+      },
+    ],
+  },
+  {
+    tag: 'web',
+    img: GP,
+    description: `System for Postgraduate Students to Manage All of Their Needs and Information`,
+    buttons: [
+      {
+        name: 'Source',
+        link: 'https://github.com/youssifYasser/post-graduate-system',
       },
     ],
   },
@@ -87,17 +114,6 @@ export const data: Data = [
       {
         name: 'Source',
         link: 'https://github.com/MostafaAmrHamed/Pig-Game',
-      },
-    ],
-  },
-  {
-    tag: 'web',
-    img: GP,
-    description: `System for Postgraduate Students to Manage All of Their Needs and Information`,
-    buttons: [
-      {
-        name: 'Source',
-        link: 'https://github.com/youssifYasser/post-graduate-system',
       },
     ],
   },
@@ -131,6 +147,39 @@ export const data: Data = [
       {
         name: 'Watch',
         link: 'https://youtu.be/i-T1wEsRBU8',
+      },
+    ],
+  },
+  {
+    tag: 'video',
+    img: csgo,
+    description: `A CSGO  montage made using Adobe Premiere and Photoshop`,
+    buttons: [
+      {
+        name: 'Watch',
+        link: 'https://youtu.be/tcXRgYlyB74',
+      },
+    ],
+  },
+  {
+    tag: 'video',
+    img: unholy,
+    description: `A Valorant montage made using Adobe Premiere and Photoshop `,
+    buttons: [
+      {
+        name: 'Watch',
+        link: 'https://youtu.be/ciidxl2cZ14',
+      },
+    ],
+  },
+  {
+    tag: 'video',
+    img: montage4,
+    description: `A Valorant  montage made using Adobe Premiere and Photoshop`,
+    buttons: [
+      {
+        name: 'Watch',
+        link: 'https://youtu.be/O505z6mVE2Y',
       },
     ],
   },
